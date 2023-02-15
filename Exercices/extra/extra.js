@@ -8,7 +8,7 @@ const doEvery = ['🍟', '🍔', '🍟'];
 
 const toMapExpect = ['🍟', '🍟', '🍟'];
 const toFilterExpect = ['🍟', '🍟'];
-const toFindExpect = ['🍔'];
+const toFindExpect = '🍔';
 const toFindWithIndexExpect = 1;
 const toFillExpect = ['🍔', '🍟', '🍟'];
 const doSomeExpect = true;
@@ -19,7 +19,7 @@ const doEveryExpect = false;
 // TODO: appliquez les fonctions ici
 const toMapResult = [];
 const toFilterResult = [];
-const toFindResult = [];
+const toFindResult = '';
 const toFindWithIndexResult = -1;
 const toFillResult = [];
 const doSomeResult = false;
@@ -69,8 +69,8 @@ let findExpectParagraph = document.getElementById('findExpect');
 let findResultParagraph = document.getElementById('findResult');
 
 appendElements(findParagraph, toFind);
-appendElements(findExpectParagraph, toFindExpect);
-appendElements(findResultParagraph, toFindResult);
+appendUniqueElement(findExpectParagraph, toFindExpect);
+appendUniqueElement(findResultParagraph, toFindResult);
 
 /**
  * findIndex
