@@ -4,7 +4,7 @@
 - Pour la partie serveur, vous pouvez :
   - Créer une API virtuelle (https://angular.io/tutorial/tour-of-heroes/toh-pt6#simulate-a-data-server)
   - Créer un serveur JSON (https://github.com/typicode/json-server)
-  - Créer une API Spring
+  - Créer une API Spring ([demo-angular](../../Demonstrations/demo-angular/))
 - Dans le **module AppModule**:
   - Importez le module `HttpClientModule` et ajoutez-le aux imports
 - Dans le **service ChickenService** :
