@@ -6,7 +6,7 @@
 ng generate module app-routing --flat --module=app
 ```
 
-- Créer un routeur comportant une route `heroes` faisant référence au **composant HeroesComponent**
+- Créer un routeur comportant une route `chickens` faisant référence au **composant ChickensComponent**
 - Dans le **template AppComponent** :
 
   - Ajoutez la balise `<router-outlet></router-outlet>`
